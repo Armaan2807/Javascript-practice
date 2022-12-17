@@ -16,3 +16,12 @@ let f= 56
 f-=2;
 f=f-2;
 console.log("f",f)
+let FirstName="Mohd "
+let MiddleName="Armaan "
+let LastName="Khan "
+let FullName=FirstName+MiddleName+LastName
+console.log("FullName",FullName)
+let firstCat= "sultan"
+let secondCat="Fluffy"
+let aboutCat="I have two cats.First cat name is "+firstCat+" and second cat name is "+secondCat
+console.log("aboutCat",aboutCat)
