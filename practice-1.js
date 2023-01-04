@@ -2,8 +2,8 @@ console.log("Welcome to PRactice session -1");
 
 console.log("Hi Armaan");
 let a="armaan"
-// a= 23
-console.log("I wanrt a ",typeof a)
+a= 23
+console.log("I wanrt a ",a)
 var b = "Mohit"
 console.log("b",b)
 let c= 5

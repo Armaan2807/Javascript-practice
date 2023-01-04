@@ -29,3 +29,17 @@ const ourArray = ["Stimpson", "J", "cat"];
 ourArray.shift();
 ourArray.unshift("Happy");
 console.log("ourArray",ourArray)
+// Home Work 
+let object1 = [100,200,300,400];
+object1.push(500);
+console.log("object1",object1)
+let object2 = ["Armaan","Shaurya","Devansh"]
+object2.pop()
+console.log("object2",object2)
+let object3 = ["b1","b2","b3,"]
+object3.shift()
+console.log("object3",object3)
+let object4 = ["z1","z2","z3"]
+object4.unshift()
+console.log("object4",object4)
+// Home Work till here

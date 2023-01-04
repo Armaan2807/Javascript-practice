@@ -25,3 +25,6 @@ let firstCat= "sultan"
 let secondCat="Fluffy"
 let aboutCat="I have two cats.First cat name is "+firstCat+" and second cat name is "+secondCat
 console.log("aboutCat",aboutCat)
+let g  = 21
+g=g-1
+g--;
