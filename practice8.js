@@ -43,3 +43,5 @@ let object4 = ["z1","z2","z3"]
 object4.unshift()
 console.log("object4",object4)
 // Home Work till here
+console.log("Last value of object one",object1[object1.length-1])
+console.log("first value of object one",object1[0])

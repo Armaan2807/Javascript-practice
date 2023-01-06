@@ -54,3 +54,9 @@ function timesFive(num1) {
 }
 //   let answer2 = timesFive(3672)
 console.log("timesfive", timesFive(43))
+// Practice 
+function addSeven(numb) {
+ return numb + 7
+}
+let ressult= addSeven(3)
+let xyz = 5

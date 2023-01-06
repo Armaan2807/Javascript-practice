@@ -11,4 +11,4 @@ console.log("last character of school name",schoolname[schoolname.length-1])
 console.log("last character of avenger movie",movie[movie.length-1])
 console.log("last character of fname",fname[fname.length-1])
 let petName = "sultan"
-console.log("",petName.[petlength])
+console.log("",petName.length)
