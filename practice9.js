@@ -29,7 +29,7 @@ function multiplication(mul1, mul2) {
 multiplication(56, 35)
 multiplication(76, 95)
 // We can also store the output of the function to the variable, 
-let mulResult = multiplication(56, 35) //we are storin the output of multiplication function to the mulResult variable.
+let mulResult = multiplication(56, 35) //we are storing the output of multiplication function to the mulResult variable.
 console.log("mulresult", mulResult)
 // function for division
 function division(div1, div2) {
