@@ -1,13 +1,15 @@
 console.log("Welcome to practice 12")
 // changing mintues into seconds
-function MinIntoSeconds(min) {
+function minIntoSeconds(min) {
+  console.log(min*60)
   return min * 60;
 
 }
 // MinIntoSeconds(24)
-console.log("Min into seconds", MinIntoSeconds(34))
+console.log("Min into seconds", minIntoSeconds(34))
 // changing age into years
 function ageIntoDays(age) {
+  console.log(365*age)
   return 365 * age;
 }
 // ageIntoDays(54)

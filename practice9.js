@@ -13,7 +13,7 @@ console.log("addResult", addResult)
 // function for subtraction
 function sub(sub1, sub2) {
   let subtraction = sub1 - sub2
-  // console.log("sub",subtraction)
+  console.log("sub",subtraction)
   return subtraction
 }
 let subResult = sub(90, 54)
