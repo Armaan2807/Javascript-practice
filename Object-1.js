@@ -37,7 +37,7 @@ console.log("BIke object", bikeObject);
 //2. Dot notation
 
 // Bracket notation
-console.log("Accessing bike name with bracket notation:", bikeObject["name"]);
+// console.log("Accessing bike name with bracket notation:", bikeObject["name"]);
 
 // Dot notation
 console.log(
@@ -46,3 +46,31 @@ console.log(
 );
 // Homework-1
 // Access all the properties of bike object using both the notations & console them
+// Bracket Notation
+console.log("Accessing bike name with bracket notation:",bikeObject["type"]);
+console.log("Accessing bike name with bracket notation:",bikeObject["name"]);
+console.log("Accessing bike name with bracket notation:",bikeObject["weight"]);
+console.log("Accessing bike name with bracket notation:",bikeObject["silencers"]);
+console.log("Accessing bike name with bracket notation:",bikeObject["newBike"]);
+// Dot Notation 
+console.log(
+  "Accessing bikeObject property with Dot notation:",
+  bikeObject.type
+);
+console.log(
+  "Accessing bikeObject property with Dot notation: ",
+  bikeObject.name
+);
+console.log(
+  "Accessing bikeObject property with Dot notation: ",
+  bikeObject.weight
+);
+console.log(
+  "Accessing bikeObject property with Dot notation: ",
+  bikeObject.silencers
+);
+console.log(
+  "Accessing bikeObject property with Dot notation: ",
+  bikeObject.newBike
+);
+
