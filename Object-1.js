@@ -23,6 +23,8 @@ const bikeObject = {
   silencers: ["turbo boost", "normal"], // array
   newBike: true, // Boolean
 };
+
+export { bikeObject };
 console.log("BIke object", bikeObject);
 
 // Object consists of two things keys & values
