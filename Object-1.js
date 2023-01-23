@@ -16,14 +16,14 @@ console.log("car Array", carArray);
 //Example-2
 // We can define any type of data inside the object ->😀 This is the beauty of object
 // This bike object has 5 properties or we can also say it has 5 keys
-const bikeObject = {
+let bikeObject = {
   type: "Sport bike", // string  // type is the key & sport bike is the value
   name: "Hayabusa", // string
   weight: 200, // numebr
   silencers: ["turbo boost", "normal"], // array
   newBike: true, // Boolean
 };
-
+delete bikeObject.name;
 export { bikeObject };
 console.log("BIke object", bikeObject);
 
@@ -54,6 +54,7 @@ console.log("Accessing bike name with bracket notation:",bikeObject["name"]);
 console.log("Accessing bike name with bracket notation:",bikeObject["weight"]);
 console.log("Accessing bike name with bracket notation:",bikeObject["silencers"]);
 console.log("Accessing bike name with bracket notation:",bikeObject["newBike"]);
+
 // Dot Notation 
 console.log(
   "Accessing bikeObject property with Dot notation:",
@@ -75,4 +76,44 @@ console.log(
   "Accessing bikeObject property with Dot notation: ",
   bikeObject.newBike
 );
+// HomeWork ends over here
+// Adding New Properties to the existing objects
+// Lets Insurt Price property in bikeObject
+// In order to insert new properties in the existing object we can use bracket notation.
+bikeObject["price"]=20000000;
+console.log("Update Bike Object",bikeObject)
+bikeObject["horsepower"]=100000
+console.log(bikeObject)
+bikeObject["milage"]=20;
+console.log(bikeObject)
+bikeObject["maxSpeed"]=200;
+console.log(bikeObject)
+// Accesing object properties using variables
+const dogs = {
+  Fido: "Mutt",
+  Hunter: "Doberman",
+  Snoopie: "Beagle",
+};
 
+const myDog = "Hunter";
+const myBreed = dogs[myDog]; // dogs[myDog] is equal to dogs["hunter"]
+const mypet="Fido"
+const myxyz= dogs[mypet];
+const snoopie= "Snoopie"
+const snoopie1=dogs[snoopie];
+console.log(snoopie)
+console.log(myxyz);
+console.log(myBreed);
+// Deleting properties from the object  
+var person = {
+  firstName:"John",
+  lastName:"Doe",
+  age:50,
+  eyeColor:"blue"
+};
+
+delete person.age;  // or delete person["age"];
+console.log(person)
+delete person["eyeColor"]
+console.log(person)
+// Before deletion: person.age = 50, after deletion, person.age = undefined
