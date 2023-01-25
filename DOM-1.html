@@ -1,0 +1,30 @@
+<html>
+<body class="containerClass">
+
+<h2>My First Page</h2>
+
+<p id="demo"></p>
+
+
+
+
+<!-- Homework -2: insert Your name between this div tag with the help of js -->
+<!-- homework-3: add border to this div with the help of js -->
+<!-- homework-4  Add new span element inside body with the help of js with some random text inside it-->
+<div class="myClass" ></div>
+
+<script>
+document.getElementById("demo").innerHTML = "Hello World!";
+//adding styles with the help of js 
+document.getElementById("demo").style.backgroundColor="red";
+
+let newDiv=document.createElement("div")
+newDiv.innerHTML="Created new div"
+
+document.body.appendChild(newDiv)
+// console.log(document.getElementById("demo"))
+
+</script>
+
+</body>
+</html>
