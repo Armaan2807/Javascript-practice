@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="demo">
+        
+    </div>
+    <!-- Homework 1 -->
+    <button onclick="showwDateaAndTime()">Time and date</button>
+    <div id="hw">
+    </div>
+    
+    <h1 onclick="this.innerHTML = 'Ooops!'">Click on this text!</h1>
+    <h3 onclick="this.innerHTML = 'HAHAHAHAHA!!!!!!'">Don't click over here.</h3>
+    <script>
+        function showwDateaAndTime() {
+            document.getElementById("hw").innerHTML =""+ new Date().getDate();
+        }
+        document.getElementById("demo").innerHTML = "Date : " + Date(); 
+        document.getElementBy("hw").innerHTML = "Date" + Date(); 
+
+        </script>
+   <!-- HomeWork 2 -->
+    <style>
+        button {
+            border: 10px solid black;
+        }
+        h3 {
+        border: 10px solid red;
+        width: 186px;
+        }
+    </style>
+</body>
+</html>
