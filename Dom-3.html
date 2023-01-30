@@ -1,21 +1,50 @@
- <!DOCTYPE html>
- <html lang="en">
- <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
- </head>
- <body>
-    <input type="text" onkeypress="modifyInput(this)">
-    <div id="result">
+  </head>
+  <body>
+    <input type="text" onkeypress="modifyInput(this)" />
+    <div id="result"></div>
+    <!-- Concept-2 -->
+    <br />
+    <h2>Adding two numbers</h2>
+    <label for="num1">Number-1</label>
+    <input id="num1" type="number" onchange="giveFirstInput(this)" />
+    <br />
+    <br />
+    <label for="num2">Number-2</label>
+    <input id="num2" type="Number" onchange="giveSecondInput(this)" />
+    <br />
+    <br />
+    <button onclick="addNumbers()">+ Add</button>
+    <br />
+    <br />
+    RESULT: <span id="addResult"></span>
+    <script>
+      let num1 = 0;
+      let num2 = 0;
+      let addResult = 0;
+      function modifyInput(event) {
+        // console.log(event.value)
+        document.getElementById("result").innerHTML = event.value;
+      }
 
-    </div>
-        <script>
-            function modifyInput(event){
-                // console.log(event.value)
-                document.getElementById("result").innerHTML=event.value;
-            }
-        </script>
- </body>
- </html>
+      function giveFirstInput(event) {
+        num1 = event.value;
+      }
+      function giveSecondInput(event) {
+        num2 = event.value;
+      }
+
+      function addNumbers() {
+        addResult = +num1 + +num2;
+        // console.log(addResult);
+        document.getElementById("addResult").innerHTML = addResult;
+      }
+    </script>
+  </body>
+</html>
