@@ -10,19 +10,19 @@
 
 <body>
     <div class="container">
-        <h1> Multiply Calculator</h1>
-        <label for="mul1">Number 1</label>
-        <input type="number" id="mul1" placeholder="Enter your First number..." onkeyup="giveFirstInput(event)">
+        <h1> Divide Calculator</h1>
+        <label for="div1">Number 1</label>
+        <input type="number" id="div1" placeholder="Enter your First number..." onkeyup="giveFirstInput(event)">
         <br>
         <br>
-        <label for="mul2">Number 2</label>
-        <input type="number" id="mul2" placeholder="Enter your Second number..." onkeyup="giveSecondInput(event)">
+        <label for="div2">Number 2</label>
+        <input type="number" id="div2" placeholder="Enter your Second number..." onkeyup="giveSecondInput(event)">
         <br />
         <br />
-        <button onclick="multiplyNumbers()">Answer</button>
+        <button onclick="divideNumbers()">Answer</button>
         <br />
         <br />
-        <h3>RESULT:</h3> <span id="mulResult"></span>
+        <h3>RESULT:</h3> <span id="divResult"></span>
     </div>
     <style>
         h1 {
@@ -49,19 +49,19 @@
         }
     </style>
     <script>
-        let mul1 = 0;
-        let mul2 = 0;
-        let mulResult = 0;
-        function multiplyNumbers(event) {
-          mulResult = mul1* mul2;
-          document.getElementById("mulResult").innerHTML =mulResult;
+        let div1 = 0;
+        let div2 = 0;
+        let divResult = 0;
+        function divideNumbers(event) {
+          divResult = div1/div2;
+          document.getElementById("divResult").innerHTML =divResult;
         }
   
         function giveFirstInput(event) {
-          mul1 = event.target.valueAsNumber;
+          div1 = event.target.valueAsNumber;
         }
         function giveSecondInput(event) {
-          mul2 = event.target.valueAsNumber;
+          div2 = event.target.valueAsNumber;
         }
       </script>
 </body>
